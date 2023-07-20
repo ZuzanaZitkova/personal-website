@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Anonymous Pro', monospace;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* navbar styling*/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(102, 132, 120, 0.286);
+
+  padding: 15px;
+}
+.brand-name {
+  font-size: 25px;
+  margin: 20px;
+}
+.navbar-links ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.navbar-links li {
+  list-style: none;
+  font-size: 20px;
+}
+.navbar-links li a {
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+  display: block;
+}
+.navbar-links li a:hover {
+  color: rgba(102, 132, 120, 0.951);
+}
+
+/*toggle bar and button styling*/
+
+.toggle-button {
+  position: absolute;
+  top: 35px;
+  right: 30px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+
+  background-color: black;
+  border-radius: 10px;
+}
+/*style of navbar under 700px width, first style of navbar itself with links and then button*/
+
+@media (max-width: 700px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+  .navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+  }
+  .navbar-links li {
+    text-align: center;
+  }
+  .navbar-links li a {
+    padding: 10px;
+  }
+  .navbar-links.active {
+    display: flex;
+  }
+  .toggle-button {
+    display: flex;
+  }
+}
