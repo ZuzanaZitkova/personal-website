@@ -287,6 +287,75 @@ h2 .secondary-heading {
   color: black;
 }
 
+/*styling of a contact part form*/
+.hero_contact {
+  background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.837),
+      rgba(184, 208, 184, 0.488)
+    ),
+    url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/090/778/original/608.jpg?1689929765');
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  max-height: fit-content;
+  min-height: 600px;
+  min-width: 600px;
+  padding: 50px;
+  position: relative;
+  background-size: cover;
+}
+.hero_contact-form-wrapper {
+  display: grid;
+  place-items: center;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+.contact-form-input:focus {
+  color: black;
+}
+.contact-form-input::placeholder {
+  color: rgba(102, 132, 120, 0.5);
+}
+.contact-form-input {
+  width: 900px;
+  height: 50px;
+  padding: 20px;
+  margin: 10px 0;
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 1px solid #fff;
+  font-size: 15px;
+  font-weight: 150;
+  color: rgba(102, 132, 120);
+  letter-spacing: 1px;
+  outline: none;
+}
+.contact-form-textarea {
+  height: 200px;
+  resize: none;
+}
+.form-submit-btn {
+  box-shadow: rgba(100, 100, 111, 0.4) 2px 5px 25px 0;
+  color: white;
+
+  display: block;
+
+  margin-top: 50px;
+  font-size: 20px;
+  padding: 10px 30px;
+  background-color: rgba(102, 132, 120, 0.951);
+  border: solid 1px rgba(102, 132, 120, 0.286);
+  border-radius: 5px;
+}
+
+.form-submit-btn:hover {
+  background-color: rgba(102, 132, 120, 0.192);
+  border: solid 1px rgba(102, 132, 120, 0.192);
+  cursor: pointer;
+  color: black;
+}
 /*style of navbar under 800px width, first style of navbar itself with links and then button*/
 
 @media (max-width: 800px) {

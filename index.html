@@ -15,6 +15,7 @@
       src="https://kit.fontawesome.com/bca0c7a652.js"
       crossorigin="anonymous"
     ></script>
+
     <title>Zuzana Zitkova</title>
   </head>
   <body>
@@ -151,7 +152,10 @@
             with front-end tools I know. Check out the whole website throught a
             link below.
           </p>
-          <a class="travel-project-link" target="blank" href="#"
+          <a
+            class="travel-project-link"
+            target="blank"
+            href="https://travel-paris.netlify.app"
             ><button>Project link</button></a
           >
         </div>
@@ -219,7 +223,51 @@
         </div>
       </div>
     </section>
-    <section class="contact-part"></section>
+    <section class="hero_contact">
+      <h2 class="hero_contact-heading">
+        <div class="main-heading">Contact</div>
+        <div class="secondary-heading">
+          Feel free to contact me throught submmiting form below, I will get
+          back to you as soon as possible
+        </div>
+      </h2>
+      <div class="hero_contact-form-wrapper">
+        <form
+          class="contact-form"
+          action="https://formsubmit.co/suegaldova@gmail.com"
+          method="POST"
+        >
+          <input
+            name="name"
+            type="text"
+            autocomplete="off"
+            placeholder="Name"
+            class="contact-form-input"
+          />
+          <input
+            name="email"
+            id="email"
+            type="email"
+            autocomplete="off"
+            placeholder="Email"
+            class="contact-form-input"
+          />
+          <input
+            name="'_subject"
+            type="text"
+            autocomplete="off"
+            placeholder="Subject"
+            class="contact-form-input"
+          />
+          <textarea
+            name="message"
+            class="contact-form-input contact-form-textarea"
+            placeholder="message"
+          ></textarea>
+          <input type="submit" value="Submit" class="form-submit-btn" />
+        </form>
+      </div>
+    </section>
     <footer></footer>
   </body>
   <footer></footer>
