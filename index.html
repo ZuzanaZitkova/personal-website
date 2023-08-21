@@ -243,30 +243,39 @@
               name="name"
               type="text"
               autocomplete="off"
-              placeholder="Enter your name"
+              placeholder="Enter your Name"
               class="contact-form-input"
             />
           </div>
-          <input
-            name="email"
-            id="email"
-            type="email"
-            autocomplete="off"
-            placeholder="Email"
-            class="contact-form-input"
-          />
-          <input
-            name="'_subject"
-            type="text"
-            autocomplete="off"
-            placeholder="Subject"
-            class="contact-form-input"
-          />
-          <textarea
-            name="message"
-            class="contact-form-input contact-form-textarea"
-            placeholder="message"
-          ></textarea>
+          <div class="form-email">
+            <h4>Email</h4>
+            <input
+              name="email"
+              id="email"
+              type="email"
+              autocomplete="off"
+              placeholder="Enter your Email"
+              class="contact-form-input"
+            />
+          </div>
+          <div class="form-subject">
+            <h4>Subject</h4>
+            <input
+              name="'_subject"
+              type="text"
+              autocomplete="off"
+              placeholder="Enter a Subject"
+              class="contact-form-input"
+            />
+          </div>
+          <div class="form-message">
+            <h4>Message</h4>
+            <textarea
+              name="message"
+              class="contact-form-input contact-form-textarea"
+              placeholder="Enter your Message"
+            ></textarea>
+          </div>
           <input type="submit" value="Submit" class="form-submit-btn" />
         </form>
       </div>
