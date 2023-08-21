@@ -312,6 +312,9 @@ h2 .secondary-heading {
 .contact-form {
   display: flex;
   flex-direction: column;
+  padding: 40px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 .contact-form-input:focus {
   color: black;
@@ -320,10 +323,11 @@ h2 .secondary-heading {
   color: rgba(102, 132, 120, 0.5);
 }
 .contact-form-input {
-  width: 900px;
+  width: 700px;
   height: 50px;
   padding: 20px;
-  margin: 10px 0;
+  margin-bottom: 40px;
+  margin-top: 5px;
   background-color: rgba(255, 255, 255, 0.4);
   border: 1px solid #fff;
   font-size: 15px;
@@ -355,6 +359,10 @@ h2 .secondary-heading {
   border: solid 1px rgba(102, 132, 120, 0.192);
   cursor: pointer;
   color: black;
+}
+h4 {
+  margin: 0px 0px 0px 5px;
+  color: #333;
 }
 /*style of navbar under 800px width, first style of navbar itself with links and then button*/
 
