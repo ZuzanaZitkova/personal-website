@@ -372,7 +372,7 @@ h4 {
 .main-footer-wrapper {
   display: flex;
   justify-content: space-between;
-  padding: 80px 0;
+  padding: 80px 0 20px 0px;
   max-width: 1100px;
   margin: auto;
   color: white;
@@ -397,6 +397,27 @@ h4 {
 .social-links a {
   font-size: 30px;
   padding-right: 20px;
+}
+
+/*styling of a secondary footer*/
+.secondary-footer {
+  display: block;
+  width: 1100px;
+  margin: auto;
+  background-color: #748266;
+}
+.secondary-footer p {
+  display: block;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  margin: 0;
+  padding: 30px 0px 40px 0px;
+  border-top: solid 1px white;
+}
+
+.secondary-footer a {
+  color: white;
 }
 /*style of navbar under 800px width, first style of navbar itself with links and then button*/
 
