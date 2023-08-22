@@ -492,7 +492,6 @@ h4 {
   }
   .hero_about-content {
     display: block;
-    max-width: 600px;
   }
   .about_content-title,
   .about_skills-title {
@@ -503,15 +502,23 @@ h4 {
     font-size: 15px;
     padding: 0px 20px;
   }
+  .about-content {
+    max-width: fit-content;
+  }
+  .hero_about-skills {
+    max-width: fit-content;
+    padding: 20px;
+  }
   .about_content-btn button {
     font-size: 15px;
     padding: 10px 50px;
-    margin: 20px auto;
+    margin: 40px auto 0 auto;
   }
   .skill {
     font-size: 15px;
     padding: 10px;
     margin-bottom: 30px;
+    max-width: fit-content;
   }
 }
 
