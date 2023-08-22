@@ -95,7 +95,7 @@ body {
   margin: 0 auto;
 
   text-align: center;
-  max-width: 800px;
+  max-width: 900px;
 }
 
 .hero_home-projects-btn button {
@@ -140,6 +140,7 @@ body {
 /*styling hero_about part*/
 .hero_about {
   background-color: #d8dcc84f;
+  width: 700px;
 }
 .hero_about-content {
   display: grid;
@@ -458,7 +459,7 @@ h4 {
 
 /*style of navbar under 800px width, of a social links - they will not be seen under 800px width on side of hero_home, other headers and texts and button will be smaller sizes */
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .hero_home {
     padding: 30px;
   }
@@ -480,23 +481,19 @@ h4 {
   }
 }
 
-/*styling of a hero_about under 800px width, sizes of header and text are smaller and there is no need to use a grid for smaller width*/
+/*styling of a hero_about under 900px width, sizes of header and text are smaller and there is no need to use a grid for smaller width*/
 
-@media (max-width: 800px) {
-  .hero_about {
-    max-width: 600px;
-  }
+@media (max-width: 900px) {
   h2 .main-heading {
     font-size: 25px;
     padding: 30px 0;
   }
   h2 .secondary-heading {
     font-size: 15px;
-
-    max-width: 400px;
   }
   .hero_about-content {
     display: block;
+    max-width: 600px;
   }
   .about_content-title,
   .about_skills-title {
@@ -519,10 +516,10 @@ h4 {
   }
 }
 
-/*styling of a project part under 800px width, titles and texts are smaller size, we do not use grind 
+/*styling of a project part under 900px width, titles and texts are smaller size, we do not use grind 
 displaying */
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .hero_project-content-row {
     display: block;
     margin: 20px auto;
@@ -547,8 +544,8 @@ displaying */
   }
 }
 
-/*styling of a contact part under 800px width*/
-@media (max-width: 800px) {
+/*styling of a contact part under 900px width*/
+@media (max-width: 900px) {
   .hero_contact {
     padding: 0;
   }
@@ -577,9 +574,9 @@ displaying */
   }
 }
 
-/*styling of footer under 800px width*/
+/*styling of footer under 900px width*/
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .main-footer-wrapper {
     padding: 30px 20px;
     display: block;
