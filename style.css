@@ -71,8 +71,9 @@ body {
     url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/090/778/original/608.jpg?1689929765');
   background-position: center;
   background-repeat: no-repeat;
-  max-width: fit-content;
+  max-width: 100%;
   max-height: fit-content;
+
   padding: 50px;
   position: relative;
   background-size: cover;
