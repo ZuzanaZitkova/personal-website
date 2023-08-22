@@ -57,7 +57,6 @@ body {
 .toggle-button .bar {
   height: 3px;
   width: 100%;
-
   background-color: black;
   border-radius: 10px;
 }
@@ -72,10 +71,8 @@ body {
     url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/090/778/original/608.jpg?1689929765');
   background-position: center;
   background-repeat: no-repeat;
-  max-width: 100%;
+  max-width: fit-content;
   max-height: fit-content;
-  min-height: 600px;
-  min-width: 600px;
   padding: 50px;
   position: relative;
   background-size: cover;
@@ -423,9 +420,10 @@ h4 {
 
 @media (max-width: 800px) {
   .navbar {
+    margin: 0;
     flex-direction: column;
     align-items: flex-start;
-    padding: 10px;
+    padding: 5px;
   }
   .navbar-links {
     display: none;
@@ -446,9 +444,76 @@ h4 {
   }
   .toggle-button {
     display: flex;
+    position: absolute;
+    margin-bottom: 0;
   }
   .brand-name {
     font-size: 20px;
+    display: block;
     margin-top: 10px;
+    padding-left: 20px;
+  }
+}
+
+/*style of navbar under 800px width, of a social links - they will not be seen under 800px width on side of hero_home, other headers and texts and button will be smaller sizes */
+
+@media (max-width: 800px) {
+  .hero_home {
+    padding: 30px;
+  }
+  .hero_home-title {
+    font-size: 20px;
+  }
+  .hero_home-text {
+    font-size: 15px;
+    height: 30px;
+    text-align: justify;
+  }
+  .hero_home-social-links {
+    display: none;
+  }
+  .hero_home-projects-btn button {
+    font-size: 15px;
+    margin-bottom: 20px;
+    padding: 10px 50px;
+  }
+}
+
+/*styling of a hero_about under 800px width, sizes of header and text are smaller and there is no need to use a grid for smaller width*/
+
+@media (max-width: 800px) {
+  .hero_about {
+    max-width: 600px;
+  }
+  h2 .main-heading {
+    font-size: 25px;
+    padding: 30px 0;
+  }
+  h2 .secondary-heading {
+    font-size: 15px;
+
+    max-width: 400px;
+  }
+  .hero_about-content {
+    display: block;
+  }
+  .about_content-title,
+  .about_skills-title {
+    font-size: 20px;
+    padding: 5px 20px;
+  }
+  .about-content p {
+    font-size: 15px;
+    padding: 0px 20px;
+  }
+  .about_content-btn button {
+    font-size: 15px;
+    padding: 10px 50px;
+    margin: 20px auto;
+  }
+  .skill {
+    font-size: 15px;
+    padding: 10px;
+    margin-bottom: 30px;
   }
 }
