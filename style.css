@@ -364,6 +364,40 @@ h4 {
   margin: 0px 0px 0px 5px;
   color: #333;
 }
+
+/*style of a footer*/
+.hero-footer {
+  background-color: #748266;
+}
+.main-footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 0;
+  max-width: 1100px;
+  margin: auto;
+  color: white;
+  box-sizing: inherit;
+}
+
+.main-heading-footer {
+  text-transform: uppercase;
+}
+.main-footer {
+  box-sizing: inherit;
+  width: 40%;
+  display: block;
+}
+.main-footer p {
+  line-height: 2;
+  text-align: justify;
+}
+.social {
+  display: block;
+}
+.social-links a {
+  font-size: 30px;
+  padding-right: 20px;
+}
 /*style of navbar under 800px width, first style of navbar itself with links and then button*/
 
 @media (max-width: 800px) {
