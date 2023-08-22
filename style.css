@@ -140,7 +140,6 @@ body {
 /*styling hero_about part*/
 .hero_about {
   background-color: #d8dcc84f;
-  width: 700px;
 }
 .hero_about-content {
   display: grid;
