@@ -517,3 +517,31 @@ h4 {
     margin-bottom: 30px;
   }
 }
+
+/*styling of a project part under 800px width, titles and texts are smaller size, we do not use grind 
+displaying */
+
+@media (max-width: 800px) {
+  .hero_project-content-row {
+    display: block;
+    margin: 20px auto;
+  }
+  .hero_project-details {
+    max-width: fit-content;
+    text-align: center;
+    line-height: 2;
+    padding: 20px;
+  }
+
+  .hero_project-details p {
+    font-size: 15px;
+  }
+  .hero_project-picture img {
+    max-width: 500px;
+  }
+  .hero_project-details button {
+    font-size: 18px;
+    padding: 10px 30px;
+    margin: 40px auto;
+  }
+}
