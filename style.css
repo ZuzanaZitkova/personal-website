@@ -296,8 +296,7 @@ h2 .secondary-heading {
   background-repeat: no-repeat;
   max-width: 100%;
   max-height: fit-content;
-  min-height: 600px;
-  min-width: 600px;
+
   padding: 50px;
   position: relative;
   background-size: cover;
@@ -543,5 +542,35 @@ displaying */
     font-size: 18px;
     padding: 10px 30px;
     margin: 40px auto;
+  }
+}
+
+/*styling of a contact part under 800px width*/
+@media (max-width: 800px) {
+  .hero_contact {
+    padding: 0;
+  }
+  .contact-form-input {
+    max-width: 450px;
+  }
+  .hero_contact-form-wrapper {
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
+  .contact-form {
+    padding: 20px;
+  }
+  .contact-form-input {
+    font-size: 12px;
+    padding: 10px;
+  }
+  h4 {
+    font-size: 13px;
+  }
+  .contact-form-textarea {
+    max-height: 100px;
+  }
+  .form-submit-btn {
+    font-size: 18px;
   }
 }
