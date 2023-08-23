@@ -614,4 +614,20 @@ displaying */
   .hero_home-projects-btn button {
     margin-top: 150px;
   }
+  .hero_about,
+  .hero-project,
+  .hero_contact,
+  .hero-footer {
+    padding: 10px;
+    max-width: 500px;
+  }
+  .hero_about-skills {
+    padding: 10px;
+    text-align: center;
+  }
+  .about_content-title,
+  .about_skills-title {
+    text-align: center;
+    margin: 0;
+  }
 }
