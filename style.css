@@ -297,7 +297,6 @@ h2 .secondary-heading {
   background-repeat: no-repeat;
   max-width: 100%;
   max-height: fit-content;
-
   padding: 50px;
   position: relative;
   background-size: cover;
@@ -600,5 +599,19 @@ displaying */
   .social h2 {
     font-size: 20px;
     margin-top: 30px;
+  }
+}
+
+/*styling of the page under 500px width*/
+
+@media (max-width: 500px) {
+  .hero_project-picture img {
+    max-width: 300px;
+  }
+  .contact-form-input {
+    max-width: 300px;
+  }
+  .hero_home-projects-btn button {
+    margin-top: 150px;
   }
 }
